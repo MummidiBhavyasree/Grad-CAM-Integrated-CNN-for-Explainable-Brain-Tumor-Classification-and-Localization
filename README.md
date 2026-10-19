@@ -6,28 +6,44 @@ Explainable deep learning framework for brain tumor classification and localizat
 
 ## Training and Validation
 
-![Training Curves](training_validation_curves.png)
+![Training Curves](Training_and_Validation_curves.png)
 
 ## Confusion Matrix
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](Confusion%20Matrix.png)
 
 ## Class-wise Metrics
 
 ![Precision Matrix](confusion_matrix_precision.png)
 
-![Recall Matrix](confusion_matrix_recall.png)
-
-## Grad-CAM Explainability
-
-![Grad-CAM Overlay](glioma_gradcam_overlay.png)
-
-![Tumor Localization](gradcam_tumor_localization.png)
-
-## LIME Explainability
-
-![LIME Explanation](lime_explanation_mri.png)
+![Recall Matrix](Confusion_matrix_recall.png)
 
 ## ROC Curve
 
-![Multi-class ROC Curve](multiclass_roc_curve.png)
+![ROC Curve](Roc_curve.png)
+
+## Grad-CAM Explainability
+
+### Glioma
+
+![Glioma Grad-CAM](glioma_gradcam.png)
+
+### Meningioma
+
+![Meningioma Grad-CAM](menongioma_gradcam.png)
+
+### No Tumor
+
+![No Tumor Grad-CAM](notumor_gradcam.png)
+
+### Pituitary
+
+![Pituitary Grad-CAM](pituitary_gradcam.png)
+
+## LIME Explainability
+
+![LIME Explanation](Lime_Explanation.png)
+
+## SHAP Explainability
+
+![SHAP Explanation](shap_explanation.png)
